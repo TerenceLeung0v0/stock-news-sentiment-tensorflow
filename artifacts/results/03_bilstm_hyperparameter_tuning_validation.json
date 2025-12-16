@@ -1,0 +1,8 @@
+{
+    "val_macro_f1": 0.6323974078829494,
+    "val_acc": 0.6773090362548828,
+    "val_loss": 0.8342347145080566,
+    "split": "val",
+    "model": "BiLSTM",
+    "stage": "03-BiLSTM Hyperparameter Tuning"
+}

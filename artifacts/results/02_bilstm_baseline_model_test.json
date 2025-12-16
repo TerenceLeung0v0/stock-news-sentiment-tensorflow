@@ -1,0 +1,8 @@
+{
+    "test_macro_f1": 0.6423057648725453,
+    "test_acc": 0.6773090362548828,
+    "test_loss": 0.7513132095336914,
+    "split": "test",
+    "model": "BiLSTM",
+    "stage": "02-BiLSTM Baseline"
+}

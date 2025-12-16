@@ -1,0 +1,28 @@
+{
+    "hyperparams": {
+        "embedding_dim": 64,
+        "lstm_units": 32,
+        "dropout": 0.2,
+        "lr": 0.0005,
+        "dense_units": 64,
+        "dense_dropout": 0.2,
+        "batch_size": 32,
+        "name": "h_emb64_lst32_dro02_lr5e-4_den64_den02_bat32",
+        "epochs": 30
+    },
+    "callbacks": [
+        {
+            "name": "EarlyStopping",
+            "monitor": "val_loss",
+            "patience": 4,
+            "restore_best_weights": true
+        }
+    ],
+    "metrics": {
+        "name": "h_emb64_lst32_dro02_lr5e-4_den64_den02_bat32",
+        "val_f1": 0.6323974078829494,
+        "val_acc": 0.6773090362548828,
+        "val_loss": 0.8342347145080566,
+        "weights_path": "/home/tl/stock-news-sentiment-tensorflow/artifacts/models/tuning/bilstm_h_emb64_lst32_dro02_lr5e-4_den64_den02_bat32.weights.h5"
+    }
+}

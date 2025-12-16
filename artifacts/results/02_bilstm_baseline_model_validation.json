@@ -1,0 +1,8 @@
+{
+    "val_macro_f1": 0.605343012772221,
+    "val_acc": 0.6442417502403259,
+    "val_loss": 0.8039780259132385,
+    "split": "val",
+    "model": "BiLSTM",
+    "stage": "02-BiLSTM Baseline"
+}
